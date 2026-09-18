@@ -69,9 +69,9 @@
         <p>Aşağıdaki yeşil butonu mouse ile tutup tarayıcınızın <b>Yer İşaretleri (Bookmark)</b> çubuğuna sürükleyin:</p>
         
         <!-- Sürükle-bırak yapılacak sihirli buton -->
-        <a class="bookmark-link" href="javascript:(function(){const s=document.createElement('script');s.src='https://raw.githubusercontent.com/iperendi/zehir-assistant/main/zehir.js?t='+Date.now();document.body.appendChild(s);})();">
-            ⚡ ZEHİR AUTO SNİPE
-        </a>
+<a class="bookmark-link" href="javascript:(function(){fetch('https://iperendi.github.io/zehir-assistant/zehir.js?t='+Date.now()).then(r=>r.text()).then(code=>eval(code)).catch(e=>alert('Zehir yüklenemedi! İnternet bağlantınızı kontrol edin.'));})();">
+    ⚡ ZEHİR AUTO SNİPE
+</a>
 
         <div class="step-box">
             <div class="step"><b>1.</b> Butonu üstteki yer işaretleri çubuğuna sürükleyip bırakın.</div>
